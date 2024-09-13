@@ -1,0 +1,102 @@
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.titulo h1 {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.container_cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  gap: 60px;
+  p {
+    font-size: 22px;
+    text-align: start;
+    width: 100%;
+    font-family: Montserrat;
+  }
+}
+
+.card_1 {
+  width: 22%;
+}
+
+.conteudo_card10 {
+  background-color: #d2bdff;
+  border-radius: 30px;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.conteudo_card2 h1 {
+  font-size: 30px;
+}
+
+.conteudo_card10 {
+  transition: 0.5s;
+}
+
+.conteudo_card10:hover {
+  transform: scale(1.2);
+  transition: 2s all;
+  cursor: pointer;
+}
+video {
+  width: 90%;
+  height: 35vh;
+}
+
+h4 {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+p {
+  width: 80%;
+  text-align: start;
+  font-size: 10px;
+  font-family: Montserrat;
+}
+
+.container_cards2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40vh;
+  gap: 60px;
+  p {
+    font-size: 17px;
+    font-family: Montserrat;
+    text-align: start;
+  }
+}
+
+.conteudo_card2 {
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #d2bdff;
+  width: 26%;
+  height: 20vh;
+}

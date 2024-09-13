@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+header a {
+  font-weight: bold;
+  color: #000000;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.container-sidebar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 12vh;
+  background-color: #ffe676;
+  box-shadow: -2px 8px 13px -5px rgba(0, 0, 0, 0.3);
+}
+
+.Container-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 0vh;
+  gap: 10%;
+}
+
+.Container-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.zoom:hover {
+  transform: scale(
+    1.2
+  ); /* Aumenta o tamanho em 20% /
+    transition: transform 0.3s ease; / Adiciona uma transição suave */
+}
+
+.zoom-logo:hover {
+  transform: scale(
+    1.1
+  ); /* Aumenta o tamanho em 20% /
+    transition: transform 0.3s ease; / Adiciona uma transição suave */
+}
+
+.container-logo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+}
+
+.container-logo img {
+  width: 100%;
+  height: 12vh;
+}
+
+.container-cadastro-login {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 18%;
+  height: 10vh;
+}
+.container-cadastro-login button {
+  background: none;
+  padding: 5px 20px 5px 20px;
+  border-radius: 503px;
+  border: 3px solid #283433;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.container-cadastro-login button:hover {
+  background-color: black;
+  color: #fff;
+
+  a {
+    color: #fefadc;
+  }
+}
+
+.container-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 80vh;
+  gap: 10%;
+}
+
+.carrosel-item-1-desative,
+.carrosel-item-2-desative {
+  display: none;
+  transition: 2s all ease;
+}
+
+.carrosel-item-1-ative,
+.carrosel-item-2-ative {
+  display: flex;
+  transition: 2s all ease;
+}
+
+.container-peca-ajuda {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 60vh;
+}
+
+#image-peca-ajuda {
+  width: 100%;
+  height: 50vh;
+}
+
+#image-illustration {
+  width: 100%;
+  height: 75vh;
+}
+
+.container-saiba-mais {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 80%;
+}
+
+#botao-saiba-mais {
+  background-color: #cca807;
+  padding: 15px 50px 15px 50px;
+  border-radius: 36px;
+  border: none;
+  cursor: pointer;
+}
+
+#botao-saiba-mais a {
+  text-decoration: none;
+  font-family: MontSerrat;
+  font-weight: bold;
+  color: white;
+  font-size: 1.2rem;
+}
+
+#botao-saiba-mais:hover {
+  background-color: #000000;
+  color: #fefadc;
+  a:hover {
+    color: #fefadc;
+  }
+}
+
+.container-hashtag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 2vh;
+}
+
+.container-hashtag p {
+  font-size: 1.8rem;
+}
+
+.container-hashtag hr {
+  width: 45%;
+}
+.title_clientes {
+  color: #ffe676;
+  font-size: 36px;
+}
+
+.empresas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}

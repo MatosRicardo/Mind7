@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+
+main body {
+  height: 200vh;
+}
+
+header a {
+  font-weight: bold;
+  color: #000000;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.container-sidebar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 12vh;
+  background-color: #ffffff;
+  box-shadow: -2px 8px 13px -5px rgba(0, 0, 0, 0.3);
+}
+
+.Container-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 0vh;
+  gap: 10%;
+}
+
+.Container-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.zoom:hover {
+  transform: scale(
+    1.2
+  ); /* Aumenta o tamanho em 20% /
+      transition: transform 0.3s ease; / Adiciona uma transição suave */
+}
+
+.zoom-logo:hover {
+  transform: scale(
+    1.1
+  ); /* Aumenta o tamanho em 20% /
+      transition: transform 0.3s ease; / Adiciona uma transição suave */
+}
+
+.container-logo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+}
+
+.container-logo img {
+  width: 100%;
+  height: 12vh;
+}
+
+.container-cadastro-login {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 18%;
+  height: 10vh;
+  font-weight: bold;
+}
+.container-cadastro-login button {
+  background: none;
+  padding: 0px 2px 0px 2px;
+  border-radius: 40px;
+  border: 0px solid #283433;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.container-cadastro-login button:hover {
+  color: #fff;
+
+  a {
+    color: #fefadc;
+  }
+}
+
+main {
+  width: 100%;
+  height: 400vh;
+  background-color: #ffed9b;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 100%;
+  height: 200vh;
+  background-color: #ffed9b;
+}
+
+.conteudo {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  width: 100%;
+  height: 200vh;
+  margin-top: 5%;
+  gap: 8%;
+}
+.conteudo_principal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+  width: 80%;
+  height: 80vh;
+  gap: 10%;
+  font-size: 20px;
+}
+
+.barra_lateral {
+  display: flex;
+  height: 20vh;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5%;
+  margin-top: 10%;
+}
+.barra_lateral img {
+  width: 50%;
+  height: 10vh;
+  margin-left: 15%;
+}
+
+.container_blocos {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: 30vh;
+}
+
+.blocos {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+.blocos img {
+  height: 105%;
+}
+
+.grafico {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grafico2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+.grafico img {
+  width: 85%;
+}
+
+.zoom1:hover {
+  transform: scale(1.1);
+}
+
+hr {
+  width: 100%;
+}
