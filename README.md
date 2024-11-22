@@ -25,5 +25,5 @@ Ser referência nacional em psicologia organizacional, reconhecida por transform
 - Gustavo Lima: https://www.linkedin.com/in/gustavo-developer/
 - Marcelo: https://www.linkedin.com/in/marcelo-alves-174492242/
 - Paulo Nalcino: https://www.linkedin.com/in/paulo-nalcino/
-- Ricardo Ribeiro: www.linkedin.com/in/ricardo-matos-developer
+- Ricardo Ribeiro: www.linkedin.com/in/ricardomatos-developer
 - Vitor Hugo: https://www.linkedin.com/in/vitor-hugo-santana-de-oliveira-desenvolvedor/
